@@ -1,0 +1,374 @@
+body {
+   height: 100vh;
+   width: 100vw;
+   margin: 0px; 
+}
+.image1 {
+    background-image: url(stadium.jpg);
+    height: 300px;
+    width:100%;
+     background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 16px;
+}
+
+.topnav a {
+   color:#f2f2f2;
+    position: relative;
+    font-size: 15px;
+   text-decoration: none;
+    top:8px;
+    float: right;
+    padding: 15px 16px;
+}
+
+.topnav a:hover{
+    border-bottom: 1px solid red;
+}
+.topnav a.active{
+ border-bottom: 1px solid red;
+}
+.navbar a{
+   color: #f2f2f2;
+    position: absolute;
+    text-decoration: none;
+    top: 8px;
+    left: 16px;
+    padding: 15px 16px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    border-bottom: 1px solid red;
+}
+.navbar a.active{
+ border-bottom: 1px solid red;
+}
+#top h1{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #f2f2f2;
+    text-align: center;
+}
+#top p{
+    color: white;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.button {
+    background-color: #00008B;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+}
+.button:hover{
+    background-color: #262626;
+}
+
+.boxed-3 {
+   width: 100%;
+   height: 200px;
+   margin: 330px;
+   background-color: white;
+   float: right;
+   position: absolute;
+   margin-left: 0px;
+}
+.menu2{
+    position: absolute;
+    float:right;
+    left: 130px;
+    top: 0px;
+    font-size: 25px;
+    color:#262626;
+    
+}
+.P2{
+    position:absolute;
+    float:right;
+    font-size: 15px;
+    color:black;
+    top: 20px;
+    left: 30px;
+    text-align: center;
+}
+
+.boxed-3 .button1 {
+    background-color: #00008B;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 16px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+.boxed-3 .image2{
+   background-image: url(crest.jpg);
+   position: absolute;
+   top:0px;
+    height: 200px;
+    width: 50%;
+    right:0;
+}
+.menu3{
+    position:absolute;
+    top:570px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+}
+.P3{
+    color: black;
+    position:absolute;
+    top:600px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container{
+ padding: 0;
+ margin: 350px auto;
+ position: relative;
+ width: 1200px;
+ height: 300px;
+ background-color: #F5F5F5;
+}
+.container .box{
+ position: relative;
+ width: 370px;
+ height: 270px;
+ background: #fff;
+ float: left;
+ margin: 15px;
+ box-sizing: border-box;
+ overflow: hidden;
+ border-radius: 10px;
+ box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+.container .box .icon {
+ position: absolute;
+ background: #00008b;
+ top: 20px;
+ left: 45%;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+}
+.container .box .icon .fa {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 30px;
+ color: #fff;
+}
+.container .box .content {
+ position: absolute;
+ top: 60px;
+ height: calc(100% - 60px);
+ text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.image3 {
+    background-image: url(city2.jpg);
+    height: 300px;
+    width:100%;
+     background-size:100% 100%;
+    position: relative;
+}
+.page2{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+.p4{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.insert{
+    position:absolute;
+    margin:60px;
+    left:40%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.P8{
+    position:absolute;
+    margin:100px;
+    left:40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.boxed {
+   width: 100%;
+   height: 200px;
+   margin: 180px;
+   background-color: white;
+   float: right;
+   position: absolute;
+   margin-left: 0px;
+}
+
+.menu5{
+    position: absolute;
+    float:right;
+    font-size: 20px;
+    color:#262626;
+    left: 160px;
+    top: 30px;
+    
+}
+.P5{
+    position:absolute;
+    float:right;
+    font-size: 15px;
+    color:#262626;
+    text-align: center;
+    left: 100px;
+    top: 50px;
+}
+.button2 {
+    background-color: #00008B;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 16px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+.image4{
+   background-image: url(dembele.jpg);
+   position: absolute;
+   top:0px;
+    height: 200px;
+    width: 50%;
+    right:0;
+}
+
+.boxed-1 {
+   width: 100%;
+   height: 200px;
+   margin: 390px;
+   background-color: white;
+   float: left;
+   position: absolute;
+   margin-left: 0px;
+}
+.menu6{
+    position: absolute;
+    float:right;
+    font-size: 20px;
+    color:#262626;
+    right: 300px;
+    top: 20px;
+    
+}
+.P6{
+    position:absolute;
+    font-size: 15px;
+    color:#262626;
+    float: right;
+    right:200px;
+    top: 50px;
+}
+.boxed-1 .button3 {
+    background-color: #00008B;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 16px;
+    position: absolute;
+    top: 150px;
+    right: 280px;
+}
+.boxed-1 .image5{
+   background-image: url(messi.jpg);
+   position: absolute;
+   top:0px;
+    height: 200px;
+    width: 50%;
+    left:0;
+}
+.boxed-2 {
+   width: 100%;
+   height: 200px;
+   margin: 600px;
+   background-color: white;
+   float: right;
+   position: absolute;
+   margin-left: 0px;
+}
+
+.menu7{
+    position: absolute;
+    font-size: 20px;
+    color:#262626;
+    left: 160px;
+    top: 30px;
+    
+}
+.P7{
+    position:absolute;
+    left: 100px;
+    top: 50px;
+    font-size: 15px;
+    color:#262626;
+}
+.boxed-2 .button4 {
+    background-color: #00008B;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 16px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+.boxed-2 .image6{
+   background-image: url(masia.jpg);
+   position: absolute;
+   top:0px;
+    height: 200px;
+    width: 50%;
+    right:0;
+}
+footer {
+    height: 25px;
+    background-color: #00008b;
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    border-radius: 13px;
+}
