@@ -2,6 +2,7 @@ body {
    height: 100vh;
    width: 100vw;
    margin: 0px; 
+   font-family: Helvetica, arial, sans-serif;
 }
 .image1 {
     background-image: url(stadium.jpg);
@@ -26,9 +27,6 @@ body {
 .topnav a:hover{
     border-bottom: 1px solid red;
 }
-.topnav a.active{
- border-bottom: 1px solid red;
-}
 .navbar a{
    color: #f2f2f2;
     position: absolute;
@@ -40,9 +38,6 @@ body {
 }
 .navbar a:hover{
     border-bottom: 1px solid red;
-}
-.navbar a.active{
- border-bottom: 1px solid red;
 }
 #top h1{
     position:absolute;
@@ -154,6 +149,7 @@ body {
  height: 270px;
  background: #fff;
  float: left;
+ padding:10px;
  margin: 15px;
  box-sizing: border-box;
  overflow: hidden;
